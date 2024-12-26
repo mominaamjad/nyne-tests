@@ -1,0 +1,17 @@
+{
+  "name": "nyne-tests",
+  "version": "1.0.0",
+  "description": "test cases for the nyne web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js --timeout 30000"
+  },
+  "keywords": [],
+  "author": "mominaamjad",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^131.0.4",
+    "mocha": "^11.0.1",
+    "selenium-webdriver": "^4.27.0"
+  }
+}
